@@ -227,7 +227,7 @@ async def upstream(event):
     # Special case for deploy
     if changelog == "" and not force_update:
         await event.edit(
-            "\n**• سورس جمثون محدث الى أخر اصدار**"
+            "\n**• سورس عفرتو محدث الى أخر اصدار**"
             f"**\n الفـرع: {UPSTREAM_REPO_BRANCH}**\n"
         )
         return repo.__del__()
@@ -235,13 +235,13 @@ async def upstream(event):
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
         return await event.respond(
-            f"**• ارسل** `{cmdhd}تحديث التنصيب` لتحديث سورس جمثون"
+            f"**• ارسل** `{cmdhd}تحديث التنصيب` لتحديث سورس عفرتو"
         )
 
     if force_update:
         await event.edit("**• جار التحديث الاجباري الى اخر اصدار انتظر قليلا**")
     if conf == "الان":
-        await event.edit("**• جار تحديث سورس جمثون أنتظر قليلا**")
+        await event.edit("**• جار تحديث سورس  عفرتو أنتظر قليلا**")
         await update_bot(event, repo, ups_rem, ac_br)
     return
 
