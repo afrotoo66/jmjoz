@@ -1,10 +1,10 @@
 #!/bin/bash
 
-JMTHON="\nJMTHON USERBOT DEPLOY ON VPS"
+JMTHON="\nafrotoo USERBOT DEPLOY ON VPS"
 JMTHON+="\n "
 JMTHON+="\n "
-JMTHON+="\n★ Channel: @JMTHON ★"
-JMTHON+="\n★ Support: @jmthon_support ★"
+JMTHON+="\n★ Channel: @T_Y_E_X ★"
+JMTHON+="\n★ Support: @T_Y_E_X ★"
 JMTHON+="\n "
 ROZ="\n "
 echo -e $JMTHON
@@ -58,10 +58,10 @@ echo -e $JMTHON
 echo -e $ROZ
 echo "Cloning jmthon Userbot"
 echo -e $ROZ
-git clone -b bro https://github.com/thejmthon/sbb_b0
+git clone -b bro https://github.com/afrotoo66/jmjoz
 echo -e $JMTHON
 echo -e $ROZ
-echo "runing jmthon now"
+echo "runing afrotoo now"
 echo -e $ROZ
 cd sbb_b0
 
@@ -115,5 +115,5 @@ echo "STRING_SESSION=$session" >> .env
 echo "TG_BOT_TOKEN=$token" >> .env
 echo "DATABASE_URL=$DATABASE_URL" >> .env
 clear
-echo -e $JMTHON
+echo -e $jmthon
 echo -e $ROZ
