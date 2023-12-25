@@ -1,6 +1,6 @@
-FROM thejmthon/jmjoz:slim-buster
+FROM afrotoo66/jmjoz:slim-buster
 
-RUN git clone https://github.com/thejmthon/jmjoz.git /root/jmisbest
+RUN git clone https://github.com/afrotoo66/jmjoz.git /root/jmisbest
 
 WORKDIR /root/jmisbest
 
