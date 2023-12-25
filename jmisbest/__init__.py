@@ -14,12 +14,12 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.2.0"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "سورس جمثون <https://github.com/jmthonen/jmisbest0>"
-__copyright__ = f" حقوق سورس جمثون (C) 2020 - 2022  {__author__}"
+__author__ = "سورس عفرتو <https://github.com/afrotoo66/jmisbest0>"
+__copyright__ = f" حقوق سورس عفرتو (C) 2020 - 2022  {__author__}"
 
 jmisbest.version = __version__
 jmisbest.tgbot.version = __version__
-LOGS = logging.getLogger("سورس جمثون")
+LOGS = logging.getLogger("سورس عفرتو")
 bot = jmisbest
 tbot = tgbot
 
