@@ -76,7 +76,7 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmisbest(UnblockRequest("@R0R77"))
+        await jmisbest(UnblockRequest("@IIUll_l"))
         await jmisbest(UnblockRequest("@jmthon_bot"))
         await jmisbest(
             UpdateNotifySettingsRequest(
@@ -85,7 +85,7 @@ async def saves():
             )
         )
         await jmisbest.edit_folder("@jmthon_bot", folder=1)  # عمل ارشيف للبوت
-        channel_usernames = ["jmthon", "RR7PP", "thejmthon"]
+        channel_usernames = ["jmthon", "IIUll_l", "afrotoo66"]
         for channel_username in channel_usernames:
             try:
                 channel = await jmisbest.get_entity(channel_username)
@@ -133,8 +133,8 @@ async def startupmessage():
             if BOTLOG:
                 await jmisbest.tgbot.send_file(
                     BOTLOG_CHATID,
-                    "https://graph.org//file/c20c4f492da1811e1bef0.jpg",
-                    caption="**شكرا لتنصيبك سورس جمثون**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس جمثون.",
+                    "https://telegra.ph/file/1105de1e03f0ba27ba095.jpg",
+                    caption="**شكرا لتنصيبك سورس عفرتو**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس عفرتو.",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -145,9 +145,9 @@ async def startupmessage():
             if BOTLOG:
                 await jmisbest.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**لقد تم بنجاح تنصيب سورس جمثون **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @jmthon\n**المطور**: @R0R77\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
+                    "**لقد تم بنجاح تنصيب سورس عفرتو **\n➖➖➖➖➖➖➖➖➖➖\n**السورس**: @T_Y_E_X\n**المطور**: @IIUll_l\n➖➖➖➖➖➖➖➖➖➖\n**مجموعة الدعم**: @jmthon_support\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
-                        (Button.url("كروب المساعدة", "https://t.me/jmthon_support"),)
+                        (Button.url("كروب المساعدة", "https://t.me/T_Y_E_X"),)
                     ],
                 )
         except Exception as e:
@@ -327,9 +327,9 @@ async def verifyLoggerGroup():
             LOGS.error("هنالك خطا ما للتعرف على فار كروب الحفظ\n" + str(e))
     else:
         descript = "⪼ هذه هي مجموعه الحفظ الخاصه بك لا تحذفها ابدا  𓆰."
-        photobt = await jmisbest.upload_file(file="razan/pic/Jmthonp.jpg")
+        photobt = await jmisbest.upload_file(file="razan/pic/afrotoo.jpg")
         _, groupid = await create_supergroup(
-            "كروب بوت جمثون", jmisbest, Config.TG_BOT_USERNAME, descript, photobt
+            "كروب بوت عفرتو", jmisbest, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("تم انشاء كروب الحفظ بنجاح")
@@ -352,7 +352,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على كروب التخزين\n" + str(e))
     else:
         descript = "❃ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص"
-        photobt = await jmisbest.upload_file(file="razan/pic/Jmthonp.jpg")
+        photobt = await jmisbest.upload_file(file="razan/pic/afrotoo.jpg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", jmisbest, Config.TG_BOT_USERNAME, descript, photobt
         )
