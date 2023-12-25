@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/1105de1e03f0ba27ba095.jpg" alt="The-HellBot">
 </p>
 <h1 align="center">
-  <b> jmthon userbot | سورس عفرتو</b>
+  <b> afrotoo userbot | سورس عفرتو</b>
 </h1>
 
 <h3 align="center">
