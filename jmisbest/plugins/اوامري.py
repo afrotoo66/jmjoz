@@ -9,7 +9,7 @@ from razan.CMD.aomari import *
 from ..Config import Config
 from ..core import check_owner
 
-ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر جمثون
+ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر عفرتو
 من هنا يمكنك تصفح جميع الاوامر المتاحة **"""
 
 ROZADM = "من هنا يمكنك ايجاد جميع"
@@ -25,7 +25,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await jmisbest.get_me()
         if query.startswith("اوامري") and event.query.user_id == jmisbest.uid:
             buttons = [
-                [Button.inline("معلومات جمثون", data="AOMRDB")],
+                [Button.inline("معلومات عفرتو", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="BOTCMD4"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -168,7 +168,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز بالامر   `.وضع الرمز`
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس جمثون @jmthon""",
+اوامر فارات سورس عفرتو @jmthon""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
